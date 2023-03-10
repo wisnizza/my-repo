@@ -1,2 +1,2 @@
 # my-repo
-# to Improve is to change.
+# To improve is to change.
