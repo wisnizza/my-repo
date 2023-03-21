@@ -5,64 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Wild Animal Mini Zoo</title>
+    <title>Grocery List</title>
+    <!--Used internal style on h3-->
+    <style>
+       h3 {
+        text-align: center;
+        font-style: oblique;
+        font-display: bold;
+        background-color: aliceblue;
+          }
+    </style>
 </head>
 <body>
     <main>
-        <h1>Zoo Animals</h1>
-        <!-- TODO: Add photo for each animal -->
-        <h2>Bears</h2>
-        <img src="https://live.staticflickr.com/6006/5906901160_f5828a0732_b.jpg" alt="Two Bears Walking in the Grass" class="center">
-        <p>
-            Bears have large bodies with shaggy hair. They have powerful, stocky legs that make them very fast runners, while their clawed paws are useful for hunting and digging. They are adept at climbing and swimming, have a long snout and a short tail. Their large brains make them one of the more intelligent mammals.
-        </p>
-        <ul>
-            <li>Ollie</li>
-            <li>Mona</li>
-        </ul>
-        <a href="https://www.worldanimalprotection.us/blogs/5-facts-about-bears">Bear Facts</a>
-        <h2>Giraffes</h2>
-        <img src="https://previews.123rf.com/images/ottoduplessis/ottoduplessis1307/ottoduplessis130700086/21187758-two-giraffes-standing-in-the-wild.jpg" alt="Two Giraffes in the Field" class="center">
-        <p>
-            Giraffe is the tallest of all mammals. It reaches an overall height of 18 ft (5.5 m) or more. The legs and neck are extremely long. The giraffe has a short body, a tufted tail, a short mane, and short skin-covered horns.
-        </p>
-        <ul>
-            <li>Frankie</li>
-            <li>Coconut</li>
-        </ul>
-        <a href="https://www.sheldrickwildlifetrust.org/about/species-we-protect-giraffe?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh0CWPr8T_RyIYreLKUyK4KPeSf6StdoVns_uoTmHOQqoUikP6oPt_AaAk1hEALw_wcB">Giraffe Facts</a>
-        <h2>Lions</h2>
-        <img src="https://media.istockphoto.com/id/984258362/photo/lion-couple.jpg?s=612x612&w=0&k=20&c=RFm0ZCNQfjnjkiT8R2tl_V5nGUFwAvO92-x40W7kNu4=" alt="Two Lions" class="center">
-        <p>
-            Lions have strong, compact bodies and powerful forelegs, teeth and jaws for pulling down and killing prey. Their coats are yellow-gold, and adult males have shaggy manes that range in color from blond to reddish-brown to black. The length and color of a lion's mane is likely determined by age, genetics and hormones.
-        </p>
-        <ul>
-            <li>Mella</li>
-            <li>Karl</li>
-        </ul>
-        <a href="https://factanimal.com/lions/">Lion Facts</a>
-        <h2>Monkeys</h2>
-        <img src="https://t3.ftcdn.net/jpg/04/65/60/32/360_F_465603226_vPipf4yppNwNlgOhqlhlLDja6YO1QYBG.jpg" alt="Three Monkeys" class="center">
-        <p>
-            Monkeys use all four limbs—two arms and two legs—to walk and run. Their hands and feet are good for grasping tree branches. Monkeys have a coat of hair on most of their bodies. Many types have bare areas of skin on the face and buttocks.
-        </p>
-        <ul>
-            <li>Cookie</li>
-            <li>Earl</li>
-            <li>Banana Pudding</li>
-        </ul>
-        <a href="https://www.mkewithkids.com/post/monkey-facts-for-kids/">Monkey Facts</a>
-        <h2>Alligators</h2>
-        <img src="https://thumbs.dreamstime.com/b/three-crocodiles-29567299.jpg" alt="Three Alligators" class="center">
-        <p>
-            Alligators have a long, rounded snout that has upward facing nostrils at the end; this allows breathing to occur while the rest of the body is underwater. The young have bright yellow stripes on the tail; adults have dark stripes on the tail. It's easy to distinguish an alligator from a crocodile by the teeth.
-        </p>
-        <ul>
-            <li>Wren</li>
-            <li>Aspen</li>
-            <li>Mika</li>
-        </ul>
-        <a href="https://onekindplanet.org/animal/alligator/">Aligator Facts</a>
+      <!--Used inline style on h1-->
+        <h1  style="color:rgb(5, 77, 77)">My Very Organized Grocery List</h1>
+        <section class="foodType">
+        <h2>PANTRY ITEMS</h2>
+            <section id="canned">
+              <h3>CANNED</h3>
+              <ul>
+                <li>Corn</li>
+                <li>Tuna</li>
+                <li>Green Beans</li>
+                <li>Beans</li>
+              </ul> 
+            </section>
+            <section id="dryGoods">
+                <h3>DRY GOODS</h3>
+                <ul>
+                <li>Rice</li>
+                <li>Lentils</li>
+                <li>Oats</li>
+                <li>Pancake Mix</li>
+              </ul>
+          </section>
+            <img src="https://media.istockphoto.com/id/458990173/photo/food-drive-collection.jpg?s=612x612&w=0&k=20&c=lyxmqez8_GFBYg1lHshyHCou2KpWPNsXiHJqOuP2DI8=" alt="Pantry Items">
+        </section>
+        <section class="foodType">
+            <h2>FREEZER ITEMS</h2>
+            <section id="veggies">
+              <h3>VEGGIES</h3>
+              <ol>
+                <li>Broccoli</li>
+                <li>Carrots</li>
+                <li>Cauliflower</li>
+                <li>Bell Peppers</li>
+              </ol> 
+            </section>
+            <section id="snacks">
+                <h3>SNACKS</h3>
+                <ol>
+                <li>Chicken Nuggets</li>
+                <li>Hot Pockets</li>
+                <li>Fries</li>
+                <li>Tator Tots</li>
+                </ol>
+            </section>
+            <img src="https://www.realsimple.com/thmb/9GVHqNV4qkqP_bq3eH8cMDDWEJQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fridge-contents-5e386d4f0f03482881df2f0c32abeb72.jpg" alt="Freezer Items"/>
+        </section>
     </main>
+    
 </body>
 </html>

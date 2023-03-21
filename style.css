@@ -1,36 +1,75 @@
-h1, h2{
-    text-align: center;
-}
-p {
-    text-indent: 50px;
-}
-h1 {
-    border: 10px solid white;
-    padding: 30px;
-}
 img {
-    height: 500px;
-    width: 500px;
-}
-body {
-    background-color: rgb(179, 93, 65);
-    font-style: oblique;
-    font-size: large;
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-a:link, a:visited {
-    background-color: aquamarine;
-    color: black;
-    padding: 14px 25px;
+    margin-left: 20px;
+    width: 25%;
+    height: 25%;
+    float: left;
+    padding: 10px;
+    border: solid black;
+ }
+ body {
+    background-image: url('https://i.pinimg.com/originals/60/d0/fd/60d0fd6b94550d0d6f57131e3dcdf1fa.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+ h1 {
+    border: darkorchid double;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    padding: 20px;
+    background-color: lightslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    
+ }
+
+ h2 {
+    border: solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    padding: 5px;
+    background-color: darkorchid;
+    font-style: italic;
+    height: 30px;
+ }
+
+ #canned {
+
+    background-color: rgb(204, 71, 71);
+    float: left;
+    width: 25%;
+    height: 25%;
+    border: solid black;
+    padding: 20px;
 }
-a:hover, a:active {
-    background-color: red;
+#dryGoods {
+    background-color: rgb(60, 142, 197);
+    float: left;
+    width: 25%;
+    height: 25%;
+    border: solid black;
+    margin-left: 20px;
+    padding: 20px;
+}
+#veggies {
+
+    background-color: rgb(118, 228, 127);
+    float: left;
+    width: 25%;
+    height: 25%;
+    border: solid black;
+    padding: 20px;
+}
+#snacks {
+    background-color: rgb(217, 228, 122);
+    float: left;
+    width: 25%;
+    height: 25%;
+    border: solid black;
+    margin-left: 20px;
+    padding: 20px;
+}
+.foodType {
+    display: block;
+    margin: 4px;
+    min-height: 20rem;
 }
