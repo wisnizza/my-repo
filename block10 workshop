@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interested List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>You are added to the list of interested visitors! </h1>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picaso Painting</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/103978e0ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <h1>The Picasso Painting</h1>
+  <fieldset class="form">
+    <legend>Are you interested?</legend>
+    <p>Please fill out the form below:</p>
+    <form method="POST" action="formssubmitted.html">
+      <label for="text" id="name">Full Name</label>
+      <input type="text" id="fname">
+      <label for="text" id="email">Email</label>
+      <input type="email" id="email">
+    <input type="submit" value="Submit">
+    </form>
+  </fieldset>
+    <div id="container">
+      <div id="land"></div>
+      <div id="sky1"></div>
+      <div id="sky2"></div>
+      <div id="sky3"></div>
+      <div id="sky">
+        <span id="people">
+          <i class="fa-sharp fa-solid fa-person" style="color: #79d7d6;"></i>
+          <i class="fa-sharp fa-solid fa-person" style="color: #79d7d6;"></i>
+          <i class="fa-sharp fa-solid fa-person" style="color: #79d7d6;"></i>
+          <i class="fa-sharp fa-solid fa-person" style="color: #79d7d6;"></i>
+          <i class="fa-sharp fa-solid fa-person" style="color: #79d7d6;"></i>
+          <i class="fa-sharp fa-solid fa-person" style="color: #79d7d6;"></i>
+          <i class="fa-sharp fa-person fa-solid" style="color: #666c6c;"></i>
+          <i class="fa-sharp fa-person fa-solid" style="color: #666c6c;"></i>
+          <i class="fa-sharp fa-person fa-solid" style="color: #666c6c;"></i>
+          <i class="fa-sharp fa-person fa-solid" style="color: #666c6c;"></i>
+        </span>
+      </div> 
+      <div id="mountain"></div>
+      <div id="mountain1"></div>
+      <div id="pink-dot"></div>
+      <div id="pink-dot1"></div>
+      <div id="pink-dot2"></div>
+      <div id="pink-dot-big"></div>
+      <div id="yellow-dot"></div>
+      <div id="yellow-dot-big"></div>
+    </div>
+    
+</body>
+</html>
+
+#container {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#land {
+    background-color: #72b866;
+    width: 80%;
+    height: 3%;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    right: 10%;
+}
+ #sky {
+    width: 80%;
+    height: 30%;
+    background-color: rgb(53, 168, 178);
+    position: absolute;
+    top: 44%;
+    left: 10%;
+    right: 10%;
+}
+#sky1 {
+    width: 25%;
+    height: 15%;
+    background-color: rgb(53, 168, 178);
+    position: absolute;
+    top: 27%;  
+    margin-left: 10%;
+}
+#sky2 {
+    width: 25%;
+    height: 15%;
+    background-color: rgb(53, 168, 178);
+    position: absolute;
+    top: 27%;
+    left: 38%;
+}
+#sky3 {
+    width: 25%;
+    height: 15%;
+    background-color: rgb(53, 168, 178);
+    position: absolute;
+    top: 27%;
+    left: 65%;
+}
+#mountain {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10vw 18vw 10vw;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: green;
+    position: absolute;
+    top: 38.5%;
+    left: 55%;
+}
+#mountain1 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10vw 15vw 10vw;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color:#c2ed7e;
+    position: absolute;
+    top: 44.5%;
+    left: 70%;
+}
+#pink-dot {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: rgb(233, 118, 137);
+    border-radius: 50%;
+    top: 28%;
+    left: 15%;
+    position: absolute;
+  }
+  #pink-dot1 {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: rgb(233, 118, 137);
+    border-radius: 50%;
+    top: 40%;
+    left: 15%;
+    position: absolute;
+  }
+  #pink-dot2 {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: rgb(233, 118, 137);
+    border-radius: 50%;
+    top: 29%;
+    left: 45%;
+    position: absolute;
+  }
+  #pink-dot-big {
+    width: 5vw;
+    height: 5vw;
+    background-color: rgb(233, 118, 137);
+    border-radius: 50%;
+    top: 39%;
+    left: 34%;
+    position: absolute;
+  }
+  #yellow-dot {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: rgb(227, 227, 70);
+    border-radius: 50%;
+    top: 47%;
+    left: 24%;
+    position: absolute;
+  }
+  #yellow-dot-big {
+    width: 5vw;
+    height: 5vw;
+    background-color: rgb(227, 227, 70);
+    border-radius: 50%;
+    top: 30%;
+    left: 23%;
+    position: absolute;
+  }
+  .form{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+/* i {
+    font-size: 300%;
+    margin-top: 35%;
+  } */
+h1 {
+    margin-left: 40%;
+    margin-top: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#people {
+    position: sticky;
+    top: 75%;
+    font-size: 4vw;
+}
