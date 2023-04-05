@@ -1,75 +1,151 @@
-img {
-    margin-left: 20px;
-    width: 25%;
-    height: 25%;
-    float: left;
-    padding: 10px;
-    border: solid black;
- }
- body {
-    background-image: url('https://i.pinimg.com/originals/60/d0/fd/60d0fd6b94550d0d6f57131e3dcdf1fa.gif');
-    background-repeat: no-repeat;
-    background-size: 100%;
- }
- h1 {
-    border: darkorchid double;
-    text-align: center;
-    padding: 20px;
-    background-color: lightslategray;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 
-    
- }
-
- h2 {
-    border: solid rgb(0, 0, 0);
-    border-radius: 5px;
-    width: 30%;
-    text-align: center;
-    padding: 5px;
-    background-color: darkorchid;
-    font-style: italic;
-    height: 30px;
- }
-
- #canned {
-
-    background-color: rgb(204, 71, 71);
-    float: left;
-    width: 25%;
-    height: 25%;
-    border: solid black;
-    padding: 20px;
+#container {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
-#dryGoods {
-    background-color: rgb(60, 142, 197);
-    float: left;
-    width: 25%;
-    height: 25%;
-    border: solid black;
-    margin-left: 20px;
-    padding: 20px;
+#land {
+    background-color: #72b866;
+    width: 80%;
+    height: 3%;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    right: 10%;
 }
-#veggies {
-
-    background-color: rgb(118, 228, 127);
-    float: left;
-    width: 25%;
-    height: 25%;
-    border: solid black;
-    padding: 20px;
+ #sky {
+    width: 80%;
+    height: 30%;
+    background-color: rgb(53, 168, 178);
+    position: absolute;
+    top: 44%;
+    left: 10%;
+    right: 10%;
 }
-#snacks {
-    background-color: rgb(217, 228, 122);
-    float: left;
+#sky1 {
     width: 25%;
-    height: 25%;
-    border: solid black;
-    margin-left: 20px;
-    padding: 20px;
+    height: 15%;
+    background-color: rgb(53, 168, 178);
+    position: absolute;
+    top: 27%;  
+    margin-left: 10%;
 }
-.foodType {
-    display: block;
-    margin: 4px;
-    min-height: 20rem;
+#sky2 {
+    width: 25%;
+    height: 15%;
+    background-color: rgb(53, 168, 178);
+    position: absolute;
+    top: 27%;
+    left: 38%;
+}
+#sky3 {
+    width: 25%;
+    height: 15%;
+    background-color: rgb(53, 168, 178);
+    position: absolute;
+    top: 27%;
+    left: 65%;
+}
+#mountain {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10vw 18vw 10vw;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: green;
+    position: absolute;
+    top: 38.5%;
+    left: 55%;
+}
+#mountain1 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10vw 15vw 10vw;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color:#c2ed7e;
+    position: absolute;
+    top: 44.5%;
+    left: 70%;
+}
+#pink-dot {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: rgb(233, 118, 137);
+    border-radius: 50%;
+    top: 28%;
+    left: 15%;
+    position: absolute;
+  }
+  #pink-dot1 {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: rgb(233, 118, 137);
+    border-radius: 50%;
+    top: 40%;
+    left: 15%;
+    position: absolute;
+  }
+  #pink-dot2 {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: rgb(233, 118, 137);
+    border-radius: 50%;
+    top: 29%;
+    left: 45%;
+    position: absolute;
+  }
+  #pink-dot-big {
+    width: 5vw;
+    height: 5vw;
+    background-color: rgb(233, 118, 137);
+    border-radius: 50%;
+    top: 39%;
+    left: 34%;
+    position: absolute;
+  }
+  #yellow-dot {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: rgb(227, 227, 70);
+    border-radius: 50%;
+    top: 47%;
+    left: 24%;
+    position: absolute;
+  }
+  #yellow-dot-big {
+    width: 5vw;
+    height: 5vw;
+    background-color: rgb(227, 227, 70);
+    border-radius: 50%;
+    top: 30%;
+    left: 23%;
+    position: absolute;
+  }
+  .form{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+/* i {
+    font-size: 300%;
+    margin-top: 35%;
+  } */
+h1 {
+    margin-left: 40%;
+    margin-top: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#people {
+    position: sticky;
+    top: 75%;
+    font-size: 4vw;
 }
